@@ -7,6 +7,9 @@ vim.g.maplocalleader = ' '
 -- Disable line wrapping
 vim.opt.wrap = false
 
+-- keep 8 columns visible to the right of the cursor
+vim.opt.sidescrolloff = 8
+
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
