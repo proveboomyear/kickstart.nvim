@@ -7,9 +7,6 @@ vim.g.maplocalleader = ' '
 -- Disable line wrapping
 vim.opt.wrap = false
 
--- keep 8 columns visible to the right of the cursor
-vim.opt.sidescrolloff = 8
-
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
@@ -81,7 +78,10 @@ vim.o.inccommand = 'split'
 vim.o.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.o.scrolloff = 15
+vim.o.scrolloff = 8
+
+-- keep 8 columns visible to the right of the cursor
+vim.opt.sidescrolloff = 8
 
 -- if performing an operation that would fail due to unsaved changes in the buffer (like `:q`),
 -- instead raise a dialog asking if you wish to save the current file(s)
